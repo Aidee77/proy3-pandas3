@@ -18,6 +18,8 @@ print(df)
 # 3. Filtrar alumnos con calificación mayor a 8
 print("\n📌 Alumnos con calificación mayor a 8:")
 print(df[df['Nota'] > 90])
+print(df[df['Nota'] < 90])
+
 
 
 # 4. Sumar todas las notas
